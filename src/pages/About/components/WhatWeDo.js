@@ -11,6 +11,13 @@ export function WhatWeDo(){
                     <p>We ensure and satisfy our clients thorugh our consistent performance and our team is full of
                     passionate and hardworking professionals</p>
 
+                    <ul>
+                            <h1>What We Do?</h1>
+
+                            <li><i className="web-development"></i> Web Development</li>
+                            <li><i className="desktop-application"></i> Desktop Applications</li>
+                            <li><i className="mobile-application"></i> Mobile Applications</li>
+                        </ul>
 
                 </div>
 
