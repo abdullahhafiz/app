@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Apply } from './components/Apply';
+import { Internship } from './components/internship';
 
 export function Career(){
     return <Fragment>
@@ -12,6 +13,7 @@ export function Career(){
         </section>
         <main>
         <Apply />
+        <Internship />
         </main>
         
     </Fragment>
