@@ -16,7 +16,7 @@ export function Team(){
                             <h4>Muhammad Abdullah</h4>
                             <span>Admin</span>
                             <div className="socialDetails">
-                                <Link to="https://github.com/abdullahhafiz" target="_blank"><i className="fab fa-github"></i></Link>
+                                <Link to="http://localhost:3000//github.com/abdullahhafiz" target="_blank"><i className="fab fa-github"></i>Link</Link>
                             </div>
                         </div>
                     </div>
