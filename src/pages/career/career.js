@@ -10,6 +10,9 @@ export function Career(){
                 </div>
             </div>
         </section>
+        <main>
         <Apply />
+        </main>
+        
     </Fragment>
 }

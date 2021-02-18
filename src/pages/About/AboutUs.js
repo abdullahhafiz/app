@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Team } from './components/Team';
+import { WhatWeDo } from './components/WhatWeDo';
 
 export function AboutUs(){
     return <Fragment>
@@ -10,6 +11,7 @@ export function AboutUs(){
         </section>
         <main id = 'aboutMain'>
             <Team />
+            <WhatWeDo />
 
         </main>
     </Fragment>

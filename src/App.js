@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { AboutUs } from './pages/About/About';
+import { AboutUs } from './pages/About/AboutUs';
+import { Career } from './pages/career/career';
 // import { Apply } from './pages/career/components/Apply';
 import { Footer } from './pages/shared/footer';
 import { Header } from './pages/shared/header'
@@ -14,6 +15,8 @@ function App() {
         </div>
         <Switch>
           <Route exact path = '/about' component={AboutUs}></Route>
+          <Route exact path = '/career' component={Career}></Route>
+
         </Switch>
         <div>
           <Footer />
