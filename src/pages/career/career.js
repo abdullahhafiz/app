@@ -5,7 +5,7 @@ export function Career(){
     return <Fragment>
                 <section id="innerBanner">
             <div className="inner-content">
-                <h2><span>Career's</span></h2>
+                <h2><span>Career</span></h2>
                 <div>
                 </div>
             </div>

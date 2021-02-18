@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { AboutUs } from './pages/About/About';
-import { Apply } from './pages/career/components/Apply';
+// import { Apply } from './pages/career/components/Apply';
 import { Footer } from './pages/shared/footer';
 import { Header } from './pages/shared/header'
 function App() {
@@ -14,7 +14,6 @@ function App() {
         </div>
         <Switch>
           <Route exact path = '/about' component={AboutUs}></Route>
-          <Route exact path = '/apply' component={Apply}></Route>
         </Switch>
         <div>
           <Footer />
