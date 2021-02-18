@@ -7,8 +7,8 @@ import { Vacancies } from './components/Vacancies';
 
 export function Career(){
     return <Fragment>
-                <section id="innerBanner">
-            <div className="inner-content">
+                <section id='innerBanner'>
+            <div className='inner-content'>
                 <h2><span>Career</span></h2>
                 <div>
                 </div>
