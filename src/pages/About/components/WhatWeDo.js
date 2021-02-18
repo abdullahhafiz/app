@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 export function WhatWeDo(){
     return <Fragment>
-        <sectrion id= 'about'>
+        <section id= 'about'>
             <div className='container'>
                 <div className='content'>
                     <p>We are not just a software house in wahcantt. We are a team of highly skilfull professional
@@ -13,7 +13,6 @@ export function WhatWeDo(){
 
                     <ul>
                             <h1>What We Do?</h1>
-
                             <li><i className="web-development"></i> Web Development</li>
                             <li><i className="desktop-application"></i> Desktop Applications</li>
                             <li><i className="mobile-application"></i> Mobile Applications</li>
@@ -22,9 +21,7 @@ export function WhatWeDo(){
                 </div>
 
             </div>
-
-
-        </sectrion>
+        </section>
 
 
 
