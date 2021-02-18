@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
+import classNames from '../career.json';
+export function Internship(){                            
 
-export function Internship(){
     return <Fragment>
 
 <section id="services">
@@ -17,11 +18,15 @@ export function Internship(){
             <div className="internship-content">
                         <ul>
                             <h1>Key Requirements</h1>
-                            <li><i className='fresh-graduates'></i> Fresh graduates</li>
-                            <li><i className='fresh-graduates-learning'></i> Passionate For Learning</li>
-                            <li><i className='fresh-graduates-complete-task'></i> Complete Tasks On Given Time</li>
-                            <li><i className='fresh-graduates-working-enviroment'></i> Adjust Easily In Working Environment</li>
-                            <li><i className='fresh-graduates-disciplined'></i> Disciplined, Be Punctual In Attendance </li>
+                            {classNames.map((item, i)=>{
+                                return <li key ={i}>{item.oppurtunity} </li>
+                            })}
+                           
+                            {/* <i className='fresh-graduates'></i> */}
+                            {/* <li><i className='fresh-graduates-learning'></i> {list.arrayOfOpportunity}</li>
+                            <li><i className='fresh-graduates-complete-task'></i> {list.arrayOfOpportunity}</li>
+                            <li><i className='fresh-graduates-working-enviroment'></i>{list.arrayOfOpportunity}</li>
+                            <li><i className='fresh-graduates-disciplined'></i> {list.arrayOfOpportunity} </li> */}
                         </ul>
                     </div>
             </div>

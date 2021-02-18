@@ -1,0 +1,27 @@
+
+    [
+        {
+        "className": "fresh-graduates",
+        "oppurtunity": "Fresh Graduate"
+    },
+    {
+        "className": "fresh-graduates-learning",
+        "oppurtunity": "Passionate For Learnig"  
+    },
+
+    {
+        "className": "fresh-graduates-complete-task",
+        "oppurtunity": "Complete Task On Given Time" 
+    },
+
+    {
+        "className": "fresh-graduates-working-enviroment",
+        "oppurtunity": "Adjust Easily In Working Enviroment" 
+    },
+
+    {
+        "className": "fresh-graduates-disciplined",
+        "oppurtunity": "Disciplined, Be Punctual In Attendance" 
+    }
+    ]
+
