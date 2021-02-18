@@ -7,6 +7,7 @@ export function Header() {
             <nav id="nav-menu-container">
                 <ul className="nav-menu">
                     <li><Link to="/about">About Us</Link></li>
+                    <li><Link to="/Career">Career</Link></li>
                 </ul>
             </nav>
         </div>
