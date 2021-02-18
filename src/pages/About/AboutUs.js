@@ -4,7 +4,7 @@ import { WhatWeDo } from './components/WhatWeDo';
 
 export function AboutUs(){
     return <Fragment>
-        <section id = 'aboutInenr'>
+        <section id = 'aboutInner'>
             <div className = 'aboutInnerContent'>
                 <h2><span>About Us</span></h2>
             </div>
