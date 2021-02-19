@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
-import { WhatWeDo } from "./Componets/WhatWeDo";
-import { Client } from "../Shared/Client";
-import { Testimonials } from "../Shared/Testimonials";
-import { Team } from "./Componets/Team";
-import { SocialMedia } from "../Shared/SocialMedia";
+import { WhatWeDo } from "./componets/WhatWeDo";
+import { Header } from "../shared/Header";
+import { Footer } from "../shared/Footer";
+import { Team } from "./componets/Team";
+// import { SocialMedia } from "../Shared/SocialMedia";
 
 export function AboutUs() {
     return <Fragment>
@@ -16,10 +16,10 @@ export function AboutUs() {
 
         <main id="main">
             <WhatWeDo />
-            <Client />
-            <Testimonials />
+            <Header />
+            <Footer />
             <Team />
-            <SocialMedia />
+            {/* <SocialMedia /> */}
         </main>
     </Fragment>
 }
