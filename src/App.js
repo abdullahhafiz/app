@@ -7,24 +7,25 @@ import { Footer } from './pages/shared/Footer';
 import { Header } from './pages/shared/Header'
 function App() {
   return (
-    <div>
-    <Router>
-      <Fragment>
+     <div>
+     <Router>
+       <Fragment>
         <div>
-          <Header />
-        </div>
-        <Switch>
+           <Header />
+         </div>
+         <Route exact path = '/' component={AboutUs} />
+         <Switch>
           <Route exact path = '/about' component={AboutUs} />
-          <Route exact path = '/career' component={Career} />
-          <Route exact path='/contact' component={Contact} />
+            <Route exact path = '/career' component={Career} />
+           <Route exact path='/contact' component={Contact} /> 
 
-        </Switch>
-        <div>
-          <Footer />
-        </div>
-      </Fragment>
+         </Switch>
+         <div>
+           <Footer />
+         </div>
+       </Fragment>
     </Router>
-    </div>
+    </div> 
   );
 }
 

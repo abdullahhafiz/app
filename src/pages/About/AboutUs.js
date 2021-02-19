@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
-import { WhatWeDo } from "./componets/WhatWeDo";
 import { Header } from "../shared/Header";
 import { Footer } from "../shared/Footer";
-import { Team } from "./componets/Team";
 import { SocialMedia } from "../shared/SocialMedia";
+import { Team } from './components/Team';
+import { WhatWeDo } from './components/WhatWeDo';
 
 export function AboutUs() {
     return <Fragment>
@@ -18,7 +18,7 @@ export function AboutUs() {
             <WhatWeDo />
             <Header />
             <Footer />
-            <Team />
+            <Team/>
             <SocialMedia />
         </main>
     </Fragment>

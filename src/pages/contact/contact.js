@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
-import { Address } from "./Components/Address";
+import { Address } from "./components/Address";
 import { ContactForm } from "./components/Contactform";
 import { Map } from "./components/Map";
-import { SocialMedia } from "../Shared/SocialMedia";
+import { SocialMedia } from "../shared/SocialMedia";
 
 export function Contact() {
     return <Fragment>
