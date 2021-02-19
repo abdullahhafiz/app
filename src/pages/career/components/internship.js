@@ -22,11 +22,6 @@ export function Internship(){
                                 return <li key ={i}>{item.oppurtunity} </li>
                             })}
                            
-                            {/* <i className='fresh-graduates'></i> */}
-                            {/* <li><i className='fresh-graduates-learning'></i> {list.arrayOfOpportunity}</li>
-                            <li><i className='fresh-graduates-complete-task'></i> {list.arrayOfOpportunity}</li>
-                            <li><i className='fresh-graduates-working-enviroment'></i>{list.arrayOfOpportunity}</li>
-                            <li><i className='fresh-graduates-disciplined'></i> {list.arrayOfOpportunity} </li> */}
                         </ul>
                     </div>
             </div>
