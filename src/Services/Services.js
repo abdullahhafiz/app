@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
-import { Service } from "./Components/Service";
-import { Client } from "../Shared/Client";
-import { ServiceImage } from "./Components/ServiceImage";
-import { SocialMedia } from "../Shared/SocialMedia";
+import { ServiceImage } from "./components/ServiceImage";
+import { Client } from '../pages/shared/Client';
+import { SocialMedia } from '../pages/shared/SocialMedia';
+import { Service } from '../pages/Home/components/Service';
 
 export function Services() {
     return <Fragment>

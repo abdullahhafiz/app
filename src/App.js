@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { AboutUs } from './pages/About/AboutUs';
 import { Career } from './pages/career/career';
 import { Contact } from './pages/contact/contact';
-import { Hero } from './pages/Home/component/Hero';
+import { Index } from './pages/Home/Index';
 import { Footer } from './pages/shared/Footer';
 import { Header } from './pages/shared/Header'
+import { Services } from './Services/Services';
 function App() {
   return (
      <div>
@@ -14,11 +15,12 @@ function App() {
         <div>
            <Header />
          </div>
-         <Route exact path = '/' component={Hero} />
+         <Route exact path = '/' component={Index} />
          <Switch>
           <Route exact path = '/about' component={AboutUs} />
             <Route exact path = '/career' component={Career} />
            <Route exact path='/contact' component={Contact} /> 
+           <Route exact path='/services' component={Services} />
 
          </Switch>
          <div>
