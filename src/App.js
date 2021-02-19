@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { AboutUs } from './pages/About/AboutUs';
 import { Career } from './pages/career/career';
 import { Contact } from './pages/contact/contact';
+import { Hero } from './pages/Home/component/Hero';
 import { Footer } from './pages/shared/Footer';
 import { Header } from './pages/shared/Header'
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <div>
            <Header />
          </div>
-         <Route exact path = '/' component={AboutUs} />
+         <Route exact path = '/' component={Hero} />
          <Switch>
           <Route exact path = '/about' component={AboutUs} />
             <Route exact path = '/career' component={Career} />
