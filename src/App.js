@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { AboutUs } from './pages/About/AboutUs';
 import { Career } from './pages/career/career';
 import { Contact } from './pages/contact/contact';
-import { Footer } from './pages/shared/footer';
-import { Header } from './pages/shared/header'
+import { Footer } from './pages/shared/Footer';
+import { Header } from './pages/shared/Header'
 function App() {
   return (
     <div>
