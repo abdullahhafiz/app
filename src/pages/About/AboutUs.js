@@ -1,18 +1,25 @@
 import React, { Fragment } from 'react';
-import { Team } from './components/Team';
-import { WhatWeDo } from './components/WhatWeDo';
 
-export function AboutUs(){
+import { WhatWeDo } from "./Componets/WhatWeDo";
+import { Client } from "../Shared/Client";
+import { Testimonials } from "../Shared/Testimonials";
+import { Team } from "./Componets/Team";
+import { SocialMedia } from "../Shared/SocialMedia";
+
+export function AboutUs() {
     return <Fragment>
-        <section id = 'aboutInner'>
-            <div className = 'aboutInnerContent'>
+        <section id="innerBanner">
+            <div className="inner-content">
                 <h2><span>About Us</span></h2>
             </div>
         </section>
-        <main id = 'aboutMain'>
-            <Team />
-            <WhatWeDo />
 
+        <main id="main">
+            <WhatWeDo />
+            <Client />
+            <Testimonials />
+            <Team />
+            <SocialMedia />
         </main>
     </Fragment>
 }
