@@ -1,26 +1,27 @@
 import React, { Fragment } from 'react';
-import { Apply } from './components/Apply';
-import { Internship } from './components/internship';
-import { KeyRequirements } from './components/keyRequirements';
-import { Requirement } from './components/Requirements';
-import { Vacancies } from './components/Vacancies';
+import { Requirement } from "./components/Requirements";
+import { KeyRequirement } from "./components/keyRequirements";
+import { Vacancies } from "./components/Vacancies";
+import { Internship } from "./components/internship";
+import { Apply } from "./components/Apply";
+import { SocialMedia } from "../shared/SocialMedia";
 
-export function Career(){
+export function Career() {
     return <Fragment>
-                <section id='innerBanner'>
-            <div className='inner-content'>
-                <h2><span>Career</span></h2>
+        <section id="innerBanner">
+            <div className="inner-content">
+                <h2><span>Career's</span></h2>
                 <div>
                 </div>
             </div>
         </section>
-        <main>
-        <Apply />
-        <Internship />
-        <KeyRequirements />
+
         <Requirement />
+        <KeyRequirement />
         <Vacancies />
-        </main>
-        
+        <Internship />
+        <Apply />
+        <SocialMedia />
+
     </Fragment>
 }
