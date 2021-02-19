@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import classNames from '../career.json';
 
 export function Internship() {
     return <Fragment> <section id="services">
@@ -17,11 +18,9 @@ export function Internship() {
                     <div className="col-lg-6 content">
                         <ul>
                             <h1>Key Requirements</h1>
-                            <li><i className="icon ion-ios-checkmark-outline"></i> Fresh graduates</li>
-                            <li><i className="icon ion-ios-checkmark-outline"></i> Passionate for learning</li>
-                            <li><i className="icon ion-ios-checkmark-outline"></i> Complete tasks on given time</li>
-                            <li><i className="icon ion-ios-checkmark-outline"></i> Adjust easily in working environment</li>
-                            <li><i className="icon ion-ios-checkmark-outline"></i> Disciplined, be punctual in attendance </li>
+                            {classNames.map((item, i)=>{
+                                return <li key ={i}>{item.oppurtunity} </li>
+                            })}
                         </ul>
                     </div>
                 </div>
