@@ -4,7 +4,7 @@ import { WhatWeDo } from "./componets/WhatWeDo";
 import { Header } from "../shared/Header";
 import { Footer } from "../shared/Footer";
 import { Team } from "./componets/Team";
-// import { SocialMedia } from "../Shared/SocialMedia";
+import { SocialMedia } from "../shared/SocialMedia";
 
 export function AboutUs() {
     return <Fragment>
@@ -19,7 +19,7 @@ export function AboutUs() {
             <Header />
             <Footer />
             <Team />
-            {/* <SocialMedia /> */}
+            <SocialMedia />
         </main>
     </Fragment>
 }
